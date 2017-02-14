@@ -7,14 +7,11 @@
     android:fillViewport="true"
     android:scrollbars="vertical"
     android:scrollbarStyle="insideOverlay"
-    android:background="#ffffff"
+    android:background="@color/white"
     tools:context="com.example.joker.businesscard.MainActivity"
     tools:ignore="ContentDescription">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    <LinearLayout style="@style/linearLayout">
 
         <ImageView
             android:layout_width="match_parent"
@@ -22,33 +19,17 @@
             android:scaleType="centerCrop"
             android:src="@drawable/japan_winter"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/name"
-            android:textSize="@dimen/title"
-            android:textColor="#ffffff"
-            android:background="#273B7A"/>
+        <TextView style="@style/title"
+            android:text="@string/name"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:maxLines="7"
-            android:text="@string/description"
-            android:textSize="@dimen/small_text"/>
+        <TextView style="@style/description"
+            android:text="@string/description"/>
 
         <View style="@style/Divider"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/linearLayout">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <LinearLayout style="@style/contactLinearLayout">
 
                 <ImageView style="@style/icon"
                     android:src="@drawable/flag"/>
@@ -58,9 +39,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <LinearLayout style="@style/contactLinearLayout">
 
                 <ImageView style="@style/icon"
                     android:src="@drawable/email"/>
@@ -70,9 +49,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <LinearLayout style="@style/contactLinearLayout">
 
                 <ImageView style="@style/icon"
                     android:src="@drawable/mobile_phone"/>
@@ -86,34 +63,23 @@
 
         <View style="@style/Divider"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <TextView style="@style/scheduleMain"
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:paddingBottom="8dp"
             android:text="@string/open"
             android:textSize="@dimen/big_text"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <LinearLayout style="@style/scheduleMain"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:paddingStart="16dp"
-            android:paddingEnd="8dp"
-            android:paddingBottom="8dp">
+            android:paddingStart="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/days"
-                android:textSize="@dimen/small_text"/>
+            <TextView style="@style/schedule"
+                android:text="@string/days"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/time"
-                android:textSize="@dimen/small_text"/>
+            <TextView style="@style/schedule"
+                android:layout_weight="1"
+                android:text="@string/time"/>
 
         </LinearLayout>
 
