@@ -15,7 +15,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="192dp"
+            android:layout_height="128dp"
             android:scaleType="centerCrop"
             android:src="@drawable/japan_winter"/>
 
@@ -45,7 +45,8 @@
                     android:src="@drawable/email"/>
 
                 <TextView style="@style/text"
-                    android:text="@string/email"/>
+                    android:text="@string/email"
+                    android:autoLink="email"/>
 
             </LinearLayout>
 
@@ -55,7 +56,8 @@
                     android:src="@drawable/mobile_phone"/>
 
                 <TextView style="@style/text"
-                    android:text="@string/phone_number"/>
+                    android:text="@string/phone_number"
+                    android:autoLink="phone"/>
 
             </LinearLayout>
 
