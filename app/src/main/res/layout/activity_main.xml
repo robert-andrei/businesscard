@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:background="#ffffff"
+    tools:context="com.example.joker.businesscard.MainActivity"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/japan_winter"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/name"
+            android:textSize="@dimen/title"
+            android:textColor="#ffffff"
+            android:background="#273B7A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:maxLines="7"
+            android:text="@string/description"
+            android:textSize="@dimen/small_text"/>
+
+        <View style="@style/Divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView style="@style/icon"
+                    android:src="@drawable/flag"/>
+
+                <TextView style="@style/text"
+                    android:text="@string/location"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView style="@style/icon"
+                    android:src="@drawable/email"/>
+
+                <TextView style="@style/text"
+                    android:text="@string/email"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView style="@style/icon"
+                    android:src="@drawable/mobile_phone"/>
+
+                <TextView style="@style/text"
+                    android:text="@string/phone_number"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/open"
+            android:textSize="@dimen/big_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/days"
+                android:textSize="@dimen/small_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/time"
+                android:textSize="@dimen/small_text"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

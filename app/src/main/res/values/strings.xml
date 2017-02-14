@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Attraction Point</string>
+    <string name="name">Botanical Garden</string>
+    <string name="phone_number">0251 413 820</string>
+    <string name="email">visitus@bio.com</string>
+    <string name="location">Strada Constantin Lecca 26, Craiova</string>
+    <string name="description">
+        \t\tThe Botanical Garden is located
+        in the southwest of Craiova, on an area of approximately
+        12.8 hectares. With its vast collections of great
+        diversity, the Botanical Garden owns living biological
+        material for study and basic and applied research.
+    </string>
+    <string name="open">Open daily</string>
+    <string name="days">
+        \tMonday: \n
+        \tTuesday: \n
+        \tWednesday: \n
+        \tThursday: \n
+        \tFriday: \n
+        \tSaturday: \n
+        \tSunday:
+    </string>
+    <string name="time">
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00\n
+        \t8:00 - 23:00
+    </string>
+    <string name="copies">a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+            a lot of copies of this text
+    </string>
+</resources>
