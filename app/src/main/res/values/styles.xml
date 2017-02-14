@@ -63,11 +63,14 @@
     <style name="schedule">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
         <item name="android:textSize">16sp</item>
     </style>
 
     <style name="scheduleMain">
         <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">8dp</item>
         <item name="android:paddingEnd">8dp</item>
         <item name="android:paddingBottom">8dp</item>
     </style>
