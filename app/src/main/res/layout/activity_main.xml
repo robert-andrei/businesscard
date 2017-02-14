@@ -65,14 +65,12 @@
 
         <TextView style="@style/scheduleMain"
             android:layout_height="wrap_content"
-            android:paddingStart="8dp"
             android:text="@string/open"
             android:textSize="@dimen/big_text"/>
 
         <LinearLayout style="@style/scheduleMain"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:paddingStart="16dp">
+            android:orientation="horizontal">
 
             <TextView style="@style/schedule"
                 android:text="@string/days"/>
